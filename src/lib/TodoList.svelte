@@ -45,6 +45,7 @@
   );
 </script>
 
+<h1>Svelte Todo List</h1>
 <TodoInput
   {newTodo}
   onInput={inputHandler}

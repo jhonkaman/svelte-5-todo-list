@@ -2,5 +2,6 @@
   let { newTodo, onInput, onAdd } = $props();
 </script>
 
-<input bind:value={newTodo} oninput={onInput} />
+<label for="todo-input">Add Todo:</label>
+<input id="todo-input" bind:value={newTodo} oninput={onInput} />
 <button onclick={onAdd}>Add Todo</button>
