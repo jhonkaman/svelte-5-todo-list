@@ -4,5 +4,5 @@
 
 <label>
   <input type="checkbox" bind:checked={hideCompleted} onchange={onToggle} />
-  Hide completed
+  Hide Completed
 </label>
