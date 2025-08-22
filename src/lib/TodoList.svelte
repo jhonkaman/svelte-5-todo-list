@@ -6,7 +6,7 @@
   let id = 0;
   let newTodo = $state('');
   let todos = $state([
-    { id: id++, text: 'Learn HTML', done: false },
+    { id: id++, text: 'Learn HTML', done: true },
     { id: id++, text: 'Learn JavaScript', done: false },
     { id: id++, text: 'Learn Svelte', done: false }
   ]);
